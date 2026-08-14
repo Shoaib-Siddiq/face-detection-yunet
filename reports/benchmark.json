@@ -1,0 +1,26 @@
+{
+  "YuNet 160x160": {
+    "detector": "YuNet 160x160",
+    "frames_processed": 732,
+    "fps": 339.2,
+    "mean_faces_per_frame": 0.127,
+    "frames_with_detection": "75/732",
+    "mean_confidence": 0.757
+  },
+  "YuNet 320x320": {
+    "detector": "YuNet 320x320",
+    "frames_processed": 732,
+    "fps": 258.11,
+    "mean_faces_per_frame": 0.504,
+    "frames_with_detection": "221/732",
+    "mean_confidence": 0.797
+  },
+  "YuNet 640x640": {
+    "detector": "YuNet 640x640",
+    "frames_processed": 732,
+    "fps": 162.4,
+    "mean_faces_per_frame": 0.594,
+    "frames_with_detection": "273/732",
+    "mean_confidence": 0.829
+  }
+}

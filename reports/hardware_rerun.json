@@ -1,0 +1,32 @@
+{
+  "cpu": "Apple M4",
+  "os": "27.0.1",
+  "opencv": "5.1.0",
+  "video": "assets/face-walking.mp4",
+  "results": [
+    {
+      "detector": "YuNet 160x160",
+      "frames_processed": 732,
+      "fps": 236.42,
+      "mean_faces_per_frame": 0.126,
+      "frames_with_detection": "74/732",
+      "mean_confidence": 0.757
+    },
+    {
+      "detector": "YuNet 320x320",
+      "frames_processed": 732,
+      "fps": 154.55,
+      "mean_faces_per_frame": 0.504,
+      "frames_with_detection": "223/732",
+      "mean_confidence": 0.796
+    },
+    {
+      "detector": "YuNet 640x640",
+      "frames_processed": 732,
+      "fps": 59.26,
+      "mean_faces_per_frame": 0.596,
+      "frames_with_detection": "273/732",
+      "mean_confidence": 0.827
+    }
+  ]
+}

@@ -65,6 +65,10 @@ The 320-pixel setting processed 258 FPS and produced detections in 221 frames. S
 
 All three configurations processed the same 732-frame clip. At 160, 320 and 640 pixels, the detector returned boxes in 75, 221 and 273 frames respectively. A person can appear in multiple frames and a box can be a false positive. Manual labels would allow precision and recall estimates. The saved report omits hardware details, so throughput comparisons apply only within this run.
 
+### Run with recorded hardware
+
+On an Apple M4 with OpenCV 5.1.0, the 160-, 320- and 640-pixel settings processed 236, 155 and 59 FPS, respectively. They returned detections in 74, 223 and 273 of the same 732 frames. These are single-run wall-clock measurements. Concurrent workloads can affect throughput. [Hardware and results](reports/hardware_rerun.json)
+
 ## 📚 References
 
 - OpenCV Zoo — [face_detection_yunet](https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet)
